@@ -14,6 +14,7 @@ def populate():
             'url': 'http://www.greenteapress.com/thinkpython/'},
             {'title': 'Learn Python in 10 Minutes',
              'url': 'http://www.korokithakis.net/tutorials/python/'} ]
+
     django_pages = [
             {'title': 'Official Django Tutorial',
              'url': 'https://docs.djangoproject.com/en/2.1/intro/tutorial01/'},
@@ -21,6 +22,7 @@ def populate():
              'url': 'http://www.djangorocks.com/'},
             {'title': 'How to Tango with Django',
              'url': 'http://www.tanogwithdjango.com/'} ]
+
     other_pages = [
             {'title': 'Bottle',
              'url': 'http://bottlepy.org/docs/dev/'},
@@ -28,6 +30,7 @@ def populate():
              'url': 'http://www.djangorocks.com/'},
             {'title': 'Flask',
              'url': 'http://flask.pocoo.org'} ]
+
     cats = {'Python' : {'pages': python_pages},
             'Django': {'pages': django_pages},
             'Other Frameworks': {'pages': other_pages} }
