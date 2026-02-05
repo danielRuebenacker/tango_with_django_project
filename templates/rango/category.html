@@ -8,7 +8,7 @@
 	<body>
 			<div>
 			{% if category %}
-				<h1>{{ category.name }} </h1>
+				<h1>{{ category.name }}</h1>
 				{% if pages %}
 				<ul>
 					{% for page in pages %}
@@ -22,5 +22,6 @@
 				The specified category does not exist.
 			{% endif %}
 			</div>
+			<a href="{% url 'rango:index' %}">Home</a>
 	</body>
 </html>
